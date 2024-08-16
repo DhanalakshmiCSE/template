@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .box {
+            width: 100%;  
+            padding: 20px;
+            background-color: rgb(229, 234, 235);
+        }
+
+        .fluid {
+            width: 100%;
+            background-color:rgb(246, 235, 222);
+            display: inline-flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .left {
+            font-size: 20px;
+        }
+
+        .right {
+            font-size: 20px;
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+            background: rgb(235, 229, 233);
+        }
+
+        .event-list {
+            width: 100%;
+            display: flex;
+            
+        }
+
+        .event-item {
+            background: white;
+            width: 33%;
+            
+            
+            
+        }
+
+        .event-item img {
+            width: 100%;
+            height: auto;
+            padding: 20px;
+           
+        }
+
+        .event-details {
+            padding: 20px;
+        }
+
+        .event-details h2 {
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
+
+        .event-details p {
+            margin: 0;
+            color:black;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #bbefbb;
+          
+        }
+        form{
+            
+            margin: 50px 600px;
+            align-items: center;
+            background-color: rgb(235, 229, 233);
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation and Header Section -->
+    <div class="box">
+        <div class="fluid">
+            <div class="left">
+                Explorer
+            </div>
+            <div class="right">
+                home | services | about
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="box">
+        <div class="fluid">
+            <div class="left">
+                <p>WELCOME TO EXPLORER</p>
+                <h1>YOUR ADVENTURE TRAVEL EXPERT IN THE SOUTH</h1>
+            </div>
+            <div class="right">
+                <img src="./images/1.webp" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <!----Events Section -->
+    <div class="container">
+        <div class="event-list">
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image1">
+                <div class="event-details">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque quam soluta consequatur mollitia repudiandae modi sunt doloribus maxime illo. Vitae illum, reprehenderit sunt necessitatibus aspernatur voluptatum maiores, est deserunt maxime dolores ipsum officia deleniti quisquam inventore accusamus, aliquam ad dolorem iure consequuntur doloremque quasi adipisci! Magnam alias, dolor unde ab nesciunt sit animi. Illum corporis commodi possimus quibusdam autem quasi nisi necessitatibus quis sint! Ullam autem odio laudantium doloribus. Deleniti consequatur ipsa esse nihil. Blanditiis aut voluptas dolorum adipisci tempore aperiam quam expedita deleniti fugit atque sequi consequatur numquam, porro nisi quo necessitatibus nemo mollitia commodi optio vero modi.</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image">
+                <div class="event-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iste illo praesentium saepe, molestias tenetur quis modi vero accusantium dicta unde quisquam, debitis sed mollitia optio harum sequi assumenda iusto? Ea, aperiam enim odit, consectetur temporibus quis sit in rerum, impedit ipsam minima provident delectus eveniet voluptate? Inventore illo nobis laboriosam voluptas cum, expedita necessitatibus excepturi laudantium, fugiat quia ducimus, eius delectus nihil! Neque ratione deleniti perferendis cupiditate voluptas labore ut, quis atque. Quaerat obcaecati voluptatum rerum reprehenderit cupiditate? Explicabo natus dolore optio nam tempora cum maxime quia incidunt labore ea eos, accusantium nobis praesentium vero facere, earum doloribus consequuntur!</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image">
+                <div class="event-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde architecto reiciendis quos asperiores mollitia id, facere tempora illo fuga adipisci, nemo, accusamus doloribus beatae ratione debitis eius! Atque error natus voluptate. Voluptate pariatur accusamus facilis temporibus deserunt delectus, provident a iste repudiandae optio repellat assumenda ea aliquid consequatur quo vitae illum sed sit error explicabo, cupiditate qui. Velit, quia enim! Fugit maiores illo et esse eligendi soluta tempora quis, reiciendis sapiente cum commodi minima tenetur asperiores odit! Fugiat facilis deserunt, voluptas laborum, eos omnis beatae unde velit sed pariatur, deleniti commodi similique assumenda aperiam? Modi alias repellat consequatur voluptate facere.</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="event-list">
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image">
+                <div class="event-details">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque quam soluta consequatur mollitia repudiandae modi sunt doloribus maxime illo. Vitae illum, reprehenderit sunt necessitatibus aspernatur voluptatum maiores, est deserunt maxime dolores ipsum officia deleniti quisquam inventore accusamus, aliquam ad dolorem iure consequuntur doloremque quasi adipisci! Magnam alias, dolor unde ab nesciunt sit animi. Illum corporis commodi possimus quibusdam autem quasi nisi necessitatibus quis sint! Ullam autem odio laudantium doloribus. Deleniti consequatur ipsa esse nihil. Blanditiis aut voluptas dolorum adipisci tempore aperiam quam expedita deleniti fugit atque sequi consequatur numquam, porro nisi quo necessitatibus nemo mollitia commodi optio vero modi.</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image">
+                <div class="event-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ex dolores deserunt molestiae architecto, accusamus odio accusantium sequi a magni, rem voluptatem, quidem soluta nobis enim. Modi a sapiente vero architecto rem quos corrupti amet nam soluta officiis cum, non voluptas necessitatibus, enim laborum? Repudiandae ipsam facilis facere non ab nostrum? Rem amet commodi rerum dolorum veniam recusandae impedit, delectus deleniti fuga sapiente facere eaque nulla, eligendi possimus corporis cum a facilis. Enim quidem vero accusantium dicta et? Delectus quam quibusdam at vero ipsam natus eos error fugiat excepturi accusamus obcaecati expedita impedit, odio officiis aut sint voluptatum provident magnam.</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+
+            
+            <div class="event-item">
+                <img src="./images/a.jpg" alt="image">
+                <div class="event-details">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione quaerat, quisquam libero ex quibusdam expedita, exercitationem sed officia neque nobis iste eius odit voluptatibus unde eaque. Voluptatibus alias, facere molestias dolorem sed, esse illum eligendi nesciunt modi eos dolorum officia possimus. Ex hic impedit quod tempore optio atque fugiat magni nemo ducimus voluptatem architecto cupiditate, nostrum porro. Alias delectus, laboriosam quas dicta maiores doloremque dolor id aperiam. Est esse nobis fugit nostrum. Voluptatem fuga neque debitis. Id temporibus dolore, itaque nobis modi quae natus harum sed quibusdam, odit neque fugit labore! Nam dolorem ullam recusandae quo modi magni beatae ut.</p>
+                    <button type="submit">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form>
+                <h1>Contact us</h1>
+                <p>our team will reach out to you ASAP!</p>
+                name<br>
+                <input type="text" placeholder="enter name"><br>
+                your town <br>
+                <input type="text" placeholder="enter city"><br>
+                where would you like to go ?<br>
+                <select name="city" aria-placeholder="choose">
+                    <option>chennai</option>
+                    <option>goa</option>
+                    <option>kerala</option>
+                    <option>munnar</option>
+                    <option>thiruvannamalai</option>
+                    <option>delhi</option>
+                </select><br>
+                Contact number<br>
+                <input type="number" >
+        </form>
+        </div>
+    </div>
+
+
+    
+
+   <hr>
+    <div class="footer">
+    <p align="center">&copy; 2024 Explorer. All rights reserved.</p>
+    <p align="center">
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Contact Us</a>
+    </p>
+</div>
+
+    
+</body>
+</html>
